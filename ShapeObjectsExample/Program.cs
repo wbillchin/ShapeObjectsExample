@@ -60,7 +60,7 @@ namespace ShapeObjectsExample
                 double anArea = aShape.CalculateArea();
                 Console.WriteLine("shape area is " + anArea);
                 secondSumOfAreas += anArea;
-                Console.WriteLine("Sum of area is now " + sumOfAreas);
+                Console.WriteLine("Sum of area is now " + secondSumOfAreas);
             }
 
             double averageAreaOfAllShapes = secondSumOfAreas / shapeList.Count;
